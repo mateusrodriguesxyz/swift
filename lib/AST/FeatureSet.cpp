@@ -779,6 +779,8 @@ static bool usesFeatureSensitive(Decl *decl) {
 
 UNINTERESTING_FEATURE(DebugDescriptionMacro)
 
+static bool usesFeatureTrailingComma(Decl *decl) { return false; }
+
 // ----------------------------------------------------------------------------
 // MARK: - FeatureSet
 // ----------------------------------------------------------------------------
